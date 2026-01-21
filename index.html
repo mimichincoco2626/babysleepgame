@@ -83,7 +83,7 @@
 
     <!-- 音樂開關 -->
     <button id="music-toggle" onclick="toggleMusic()" class="fixed top-4 right-4 z-50 bg-white p-2.5 rounded-full shadow-lg border-2 border-pink-100 text-lg">
-        <span id="music-icon">🔇</span>
+        <span id="music-icon">靜音</span>
     </button>
 
     <div id="game-container" class="w-full max-w-md bg-white rounded-[2rem] shadow-2xl overflow-hidden border-b-8 border-pink-200 relative flex flex-col h-[600px] sm:h-auto">
@@ -201,7 +201,7 @@
             <div id="result-screen" class="hidden p-6 text-center h-full overflow-y-auto custom-scroll">
                 <h2 class="text-xl font-bold text-gray-800 mb-1">挑戰結果</h2>
                 <div class="my-4 bg-pink-50 p-5 rounded-3xl border-2 border-pink-100 relative">
-                    <p class="text-[10px] text-pink-400 font-bold mb-1 tracking-widest uppercase">Your Score</p>
+                    <p class="text-[10px] text-pink-400 font-bold mb-1 tracking-widest uppercase">最終得分</p>
                     <div class="mb-2"><span id="final-score" class="text-5xl font-black text-pink-500">0</span><span class="text-gray-400 text-lg"> / 1000</span></div>
                     <div id="rank-badge" class="inline-block px-5 py-1.5 rounded-full bg-white shadow-sm border-2 font-black text-lg mb-2">載入中...</div>
                     <p id="rank-desc" class="text-gray-600 text-xs font-medium px-2"></p>
@@ -276,7 +276,7 @@
         };
 
         const questions = [
-            { q: "為何許多家長明知趴睡有風險，仍想讓寶寶趴睡？", o: ["可以防吐奶噎到", "寶寶趴著較有安全感，睡得較沉", "能讓頭型變漂亮", "以上皆是常見迷思"], a: 3, f: "致命迷思！研究顯示趴睡會增加猝死機率，而『睡得沉』反而是停止呼吸的風險來源。", article: articleList.myths },
+            { q: "為何許多家長明知趴睡有風險，仍想讓寶寶趴睡？", o: ["可以防吐奶噎到", "寶寶趴著比較有安全感，睡得較沉", "能讓頭型變漂亮", "以上皆是常見迷思"], a: 3, f: "致命迷思！研究顯示趴睡會增加猝死機率，而『睡得沉』反而是停止呼吸的風險來源。", article: articleList.myths },
             { q: "國外推廣嬰兒睡眠安全網（如奧地利）的核心概念是？", o: ["家長應該更努力監視寶寶", "睡眠安全是社會系統支持，非僅家長責任", "買偵測器是唯一解方", "嬰兒不應在醫院外睡覺"], a: 1, f: "睡眠安全是全方位防護網，包括政府補助與家庭支持。", article: articleList.intl },
             { q: "關於「同床睡」，專家死因回溯後的建議是？", o: ["同床更安全，能即時發現問題", "同床會增加大人壓到孩子或被褥遮口鼻的風險", "中間放枕頭隔開就安全", "為了親密關係，一定要同床"], a: 1, f: "正確做法是『同房不同床』。同床容易發生溢奶噎到或壓迫意外。", article: articleList.risk },
             { q: "當寶寶半夜哭鬧時，哪種行為是正確的？", o: ["放在軟沙發上暫睡", "嬰兒床堆滿玩偶增加安全感", "建立固定順序的睡眠儀式並仰睡", "讓他趴在大人胸口睡"], a: 2, f: "沙發極危險。床應保持空曠，五字訣：不、搖、墊、枕、被。", article: articleList.reform },
