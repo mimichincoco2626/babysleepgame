@@ -1,555 +1,414 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh-TW">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <!-- Google Tag Manager - PM 追蹤代碼 -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N8VL4XS');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>嬰兒睡眠安全守護者：破除致命迷思</title>
+    
+    <!-- 使用 Tailwind CSS 加速渲染 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+        
+        :root {
+            --baby-pink: #fbcfe8;
+            --baby-yellow: #fef08a;
+        }
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #fffaf0;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 核心動畫 */
+        @keyframes sway { 0% { transform: rotate(-3deg); } 100% { transform: rotate(3deg); } }
+        .mobile-swing { transform-origin: top center; animation: sway 3s ease-in-out infinite alternate; }
+        .mobile-swing-active { animation-duration: 2s; }
+
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+        .baby-float { animation: float 3s ease-in-out infinite; }
+
+        @keyframes heartUp {
+            0% { transform: translateY(0) scale(0.5); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(-40px) scale(1.2); opacity: 0; }
+        }
+        .heart-icon { animation: heartUp 1.5s ease-out infinite; opacity: 0; }
+
+        @keyframes tearDrop {
+            0% { transform: translateY(0); opacity: 0; }
+            20% { opacity: 1; }
+            100% { transform: translateY(25px); opacity: 0; }
+        }
+        .tear-drop { animation: tearDrop 1s ease-in infinite; opacity: 0; }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-2px); }
+            75% { transform: translateX(2px); }
+        }
+        .is-crying { animation: shake 0.2s infinite; }
+
+        .fade-in { animation: fadeIn 0.4s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .btn-bounce:active { transform: scale(0.96); transition: 0.1s; }
+        
+        .custom-scroll::-webkit-scrollbar { width: 5px; }
+        .custom-scroll::-webkit-scrollbar-thumb { background: var(--baby-pink); border-radius: 10px; }
+
+        .music-pulse { animation: pulse 2s infinite; }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(244, 114, 182, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(244, 114, 182, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(244, 114, 182, 0); }
+        }
+    </style>
 </head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="zh-TW"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Google Tag Manager --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':</p>
-<p class="p1"><span class="Apple-converted-space">    </span>new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],</p>
-<p class="p1"><span class="Apple-converted-space">    </span>j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=</p>
-<p class="p1"><span class="Apple-converted-space">    </span>'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>})(window,document,'script','dataLayer','GTM-N8VL4XS');&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- End Google Tag Manager --&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;嬰兒睡眠安全守護者：破除致命迷思&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&amp;display=swap');</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>--baby-pink: #fbcfe8;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>--baby-yellow: #fef08a;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Noto Sans TC', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #fffaf0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: hidden;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>-webkit-touch-callout: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>-webkit-user-select: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>user-select: none;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>@keyframes sway { 0% { transform: rotate(-3deg); } 100% { transform: rotate(3deg); } }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.mobile-swing { transform-origin: top center; animation: sway 3s ease-in-out infinite alternate; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.mobile-swing-active { animation-duration: 2s; }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.baby-float { animation: float 3s ease-in-out infinite; }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>@keyframes heartUp {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>0% { transform: translateY(0) scale(0.5); opacity: 0; }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>50% { opacity: 1; }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>100% { transform: translateY(-40px) scale(1.2); opacity: 0; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.heart-icon { animation: heartUp 1.5s ease-out infinite; opacity: 0; }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>@keyframes tearDrop {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>0% { transform: translateY(0); opacity: 0; }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>20% { opacity: 1; }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>100% { transform: translateY(25px); opacity: 0; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.tear-drop { animation: tearDrop 1s ease-in infinite; opacity: 0; }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>@keyframes shake {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>0%, 100% { transform: translateX(0); }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>25% { transform: translateX(-2px); }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>75% { transform: translateX(2px); }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.is-crying { animation: shake 0.2s infinite; }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.fade-in { animation: fadeIn 0.4s ease-out; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.btn-bounce { touch-action: manipulation; transition: transform 0.1s; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.btn-bounce:active { transform: scale(0.96); }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.custom-scroll::-webkit-scrollbar { width: 5px; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.custom-scroll::-webkit-scrollbar-thumb { background: var(--baby-pink); border-radius: 10px; }</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.music-pulse { animation: pulse 2s infinite; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>@keyframes pulse {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>0% { box-shadow: 0 0 0 0 rgba(244, 114, 182, 0.4); }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>70% { box-shadow: 0 0 0 10px rgba(244, 114, 182, 0); }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>100% { box-shadow: 0 0 0 0 rgba(244, 114, 182, 0); }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body class="min-h-screen flex items-center justify-center p-3 sm:p-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Google Tag Manager (noscript) --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;noscript&gt;&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8VL4XS"</p>
-<p class="p1"><span class="Apple-converted-space">    </span>height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;&lt;/noscript&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- End Google Tag Manager (noscript) --&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button id="music-toggle" onclick="toggleMusic()" class="fixed top-4 right-4 z-50 bg-white p-2.5 rounded-full shadow-lg border-2 border-pink-100 hover:bg-pink-50 transition-all text-lg sm:text-xl"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span id="music-icon"&gt;🔇&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/button&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="game-container" class="w-full max-w-md bg-white rounded-[2rem] shadow-2xl overflow-hidden border-b-8 border-pink-200 relative flex flex-col h-[90vh] sm:h-auto"&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- 音樂鈴 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="w-full flex justify-center pt-3 shrink-0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;svg id="bed-mobile" class="mobile-swing" width="100" height="50" viewBox="0 0 120 80"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;line x1="60" y1="0" x2="60" y2="20" stroke="#fbcfe8" stroke-width="2"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;line x1="20" y1="40" x2="100" y2="40" stroke="#fbcfe8" stroke-width="2"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;circle cx="60" cy="40" r="3" fill="#fbcfe8"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;line x1="20" y1="40" x2="20" y2="60" stroke="#fbcfe8" stroke-width="1"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M15 65 L20 60 L25 65 L20 75 Z" fill="#fef08a"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;line x1="100" y1="40" x2="100" y2="60" stroke="#fbcfe8" stroke-width="1"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M95 65 Q105 65 105 75 Q95 75 95 65" fill="#fbcfe8"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;line x1="60" y1="40" x2="60" y2="70" stroke="#fbcfe8" stroke-width="1"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M55 70 A5 5 0 1 1 65 70 A5 5 0 1 0 55 70" fill="#fde047"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- 寶寶動態視覺 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="baby-display" class="flex justify-center mb-2 shrink-0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="baby-wrapper" class="relative baby-float"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="hearts-layer" class="hidden absolute -top-8 inset-x-0 flex justify-around px-4 pointer-events-none"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="heart-icon text-pink-400 text-lg"&gt;❤️&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="heart-icon text-pink-300 text-base" style="animation-delay: 0.3s"&gt;❤️&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;svg width="160" height="110" viewBox="0 0 200 120" class="mx-auto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;rect x="20" y="80" width="160" height="10" rx="5" fill="#f3f4f6"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;rect x="30" y="70" width="140" height="10" rx="2" fill="#fff"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;g id="baby-body"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;rect x="85" y="55" width="30" height="25" rx="10" fill="#fbcfe8"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle cx="100" cy="50" r="18" fill="#ffe4e6"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;g id="eyes-neutral"&gt;&lt;path d="M90 48 Q93 51 96 48" stroke="#f472b6" fill="none" stroke-width="1.5"/&gt;&lt;path d="M104 48 Q107 51 110 48" stroke="#f472b6" fill="none" stroke-width="1.5"/&gt;&lt;/g&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;g id="eyes-happy" class="hidden"&gt;&lt;circle cx="93" cy="48" r="2.5" fill="#db2777"/&gt;&lt;circle cx="107" cy="48" r="2.5" fill="#db2777"/&gt;&lt;/g&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;g id="eyes-sad" class="hidden"&gt;&lt;path d="M90 50 L96 46 M90 46 L96 50" stroke="#9d174d" fill="none" stroke-width="1.5"/&gt;&lt;path d="M104 50 L110 46 M104 46 L110 50" stroke="#9d174d" fill="none" stroke-width="1.5"/&gt;&lt;/g&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path id="mouth-neutral" d="M97 58 Q100 60 103 58" stroke="#f472b6" fill="none" stroke-width="1"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path id="mouth-happy" d="M95 56 Q100 62 105 56" stroke="#db2777" fill="none" stroke-width="2" class="hidden"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle id="mouth-sad" cx="100" cy="60" r="3" fill="#9d174d" class="hidden"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;g id="tears-layer" class="hidden"&gt;&lt;circle cx="90" cy="55" r="2" fill="#60a5fa" class="tear-drop"/&gt;&lt;circle cx="110" cy="55" r="2" fill="#60a5fa" class="tear-drop" style="animation-delay: 0.5s"/&gt;&lt;/g&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/g&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="flex-1 overflow-hidden relative"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 開始畫面 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="start-screen" class="p-6 sm:p-8 text-center pt-0 flex flex-col h-full justify-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h1 class="text-2xl sm:text-3xl font-extrabold text-gray-800 mb-2"&gt;安全睡眠守護者挑戰&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-pink-500 font-bold mb-4"&gt;你能獲得什麼守護稱號？&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="text-gray-600 mb-6 space-y-2 text-left bg-pink-50 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm border border-pink-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="flex items-start"&gt;&lt;span class="mr-2"&gt;👶&lt;/span&gt; 台灣每年約有 30 名嬰兒猝死。&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="flex items-start"&gt;&lt;span class="mr-2"&gt;🏠&lt;/span&gt; 10 道關鍵題，實測你的睡眠安全等級。&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p id="participant-counter" class="flex items-center text-pink-600 font-bold animate-pulse"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="mr-2"&gt;✨&lt;/span&gt; 已有 &lt;span id="count-value" class="mx-1"&gt;--&lt;/span&gt; 位守護者參與挑戰</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="handleStartGame()" class="w-full bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold py-3.5 px-6 rounded-2xl transition duration-300 shadow-lg btn-bounce text-lg"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>開始挑戰</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 遊戲畫面 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="quiz-screen" class="hidden p-5 sm:p-6 pt-0 h-full flex flex-col"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mb-4 shrink-0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex justify-between items-end mb-2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span id="progress-text" class="text-xs font-bold text-pink-500"&gt;進度 1 / 10&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span id="score-text" class="text-sm font-bold text-gray-700"&gt;得分: 0&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full bg-gray-100 h-2 rounded-full overflow-hidden"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="progress-bar" class="progress-bar h-full bg-pink-400" style="width: 10%"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="quiz-content" class="flex-1 overflow-y-auto custom-scroll pr-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="question-container" class="fade-in"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="bg-yellow-50 p-4 rounded-2xl mb-4 border border-yellow-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h2 id="question-text" class="text-base sm:text-lg font-bold text-gray-800 leading-snug text-center"&gt;載入中...&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="options-container" class="space-y-2.5 mb-4"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- 答案回饋區域 (置入延伸閱讀) --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="feedback-container" class="hidden p-4 rounded-2xl border-2 fade-in relative overflow-hidden bg-white mb-4 shadow-sm"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-center mb-2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div id="feedback-icon" class="mr-2 text-xl"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p id="feedback-title" class="font-bold text-base"&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p id="feedback-text" class="text-gray-700 text-xs sm:text-sm leading-relaxed mb-4"&gt;&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">                        </span></p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- 動態插入的文章連結 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="inline-article" class="hidden mb-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="bg-pink-50 rounded-xl p-3 border border-pink-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-[10px] font-bold text-pink-400 mb-1"&gt;💡 延伸閱讀：更多詳情請見&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>&lt;a id="article-link" href="#" target="_blank" class="text-xs sm:text-sm font-bold text-gray-800 hover:text-pink-600 underline leading-tight block"&gt;&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button onclick="nextQuestion()" class="w-full bg-pink-500 text-white font-bold py-3 rounded-xl hover:bg-pink-600 transition shadow-md btn-bounce"&gt;下一題&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 結果畫面 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="result-screen" class="hidden p-5 sm:p-6 text-center h-full overflow-y-auto custom-scroll"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-xl sm:text-2xl font-bold text-gray-800 mb-1"&gt;挑戰結果&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="my-4 bg-pink-50 p-5 rounded-3xl border-2 border-pink-100 relative overflow-hidden"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="relative z-10"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-[10px] text-pink-400 font-bold mb-1 uppercase tracking-widest"&gt;最終得分&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="mb-2"&gt;&lt;span id="final-score" class="text-5xl font-black text-pink-500"&gt;0&lt;/span&gt;&lt;span class="text-gray-400 text-lg"&gt; / 1000&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="rank-badge" class="inline-block px-5 py-1.5 rounded-full bg-white shadow-sm border-2 font-black text-lg mb-2"&gt;載入稱號中...&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p id="rank-desc" class="text-gray-600 text-xs sm:text-sm mt-1 font-medium px-2"&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="result-message" class="text-gray-700 mb-8 bg-yellow-50 p-4 rounded-2xl text-left italic text-xs sm:text-sm border border-yellow-100"&gt;&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">                </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-xs text-gray-400 mb-8"&gt;感謝您的參與！分享測驗，一起打造安全的嬰兒睡眠環境。&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">                </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="restartGame()" class="w-full bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold py-3.5 rounded-2xl transition shadow-lg btn-bounce mb-4 text-base"&gt;再次挑戰，提升等級&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Firebase SDKs --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script type="module"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";</p>
-<p class="p1"><span class="Apple-converted-space">        </span>import { getAuth, signInAnonymously, onAuthStateChanged, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";</p>
-<p class="p1"><span class="Apple-converted-space">        </span>import { getFirestore, doc, onSnapshot, updateDoc, increment, setDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>const firebaseConfig = JSON.parse(__firebase_config);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const app = initializeApp(firebaseConfig);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const auth = getAuth(app);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const db = getFirestore(app);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>let user = null;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>const initAuth = async () =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (typeof __initial_auth_token !== 'undefined' &amp;&amp; __initial_auth_token) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>await signInWithCustomToken(auth, __initial_auth_token);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>await signInAnonymously(auth);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>};</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>onAuthStateChanged(auth, (u) =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>user = u;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (user) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>setupCounterListener();</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>initAuth();</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function setupCounterListener() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (!user) return;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const statsDoc = doc(db, 'artifacts', appId, 'public', 'data', 'counters', 'stats');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>onSnapshot(statsDoc, (docSnap) =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>if (docSnap.exists()) {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>document.getElementById('count-value').innerText = docSnap.data().participantCount || 0;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>document.getElementById('count-value').innerText = 0;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>setDoc(statsDoc, { participantCount: 0 }, { merge: true });</p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}, (error) =&gt; console.error("Firestore Listener Error:", error));</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>window.incrementGlobalCount = async () =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (!user) return;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const statsDoc = doc(db, 'artifacts', appId, 'public', 'data', 'counters', 'stats');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>try {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>await updateDoc(statsDoc, { participantCount: increment(1) });</p>
-<p class="p1"><span class="Apple-converted-space">            </span>} catch (e) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>await setDoc(statsDoc, { participantCount: 1 }, { merge: true });</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>};</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>// 音樂合成器邏輯</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let audioCtx = null;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let isPlaying = false;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let nextNoteTime = 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let melodyIndex = 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let timerId = null;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const melody = [261.63, 261.63, 392.00, 392.00, 440.00, 440.00, 392.00, 349.23, 349.23, 329.63, 329.63, 293.66, 293.66, 261.63];</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function playCrystalNote(freq, time) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (!audioCtx) return;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const osc = audioCtx.createOscillator();</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const gain = audioCtx.createGain();</p>
-<p class="p1"><span class="Apple-converted-space">            </span>osc.type = 'sine';</p>
-<p class="p1"><span class="Apple-converted-space">            </span>osc.frequency.setValueAtTime(freq, time);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>gain.gain.setValueAtTime(0, time);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>gain.gain.linearRampToValueAtTime(0.15, time + 0.05);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>gain.gain.exponentialRampToValueAtTime(0.001, time + 1.2);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>osc.connect(gain);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>gain.connect(audioCtx.destination);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>osc.start(time);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>osc.stop(time + 1.2);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function scheduler() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>while (nextNoteTime &lt; audioCtx.currentTime + 0.1) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>playCrystalNote(melody[melodyIndex], nextNoteTime);</p>
-<p class="p1"><span class="Apple-converted-space">                </span>nextNoteTime += 0.85;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>melodyIndex = (melodyIndex + 1) % melody.length;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>timerId = setTimeout(scheduler, 25);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function toggleMusic() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (!isPlaying) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>isPlaying = true;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>if (audioCtx.state === 'suspended') audioCtx.resume();</p>
-<p class="p1"><span class="Apple-converted-space">                </span>nextNoteTime = audioCtx.currentTime;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>melodyIndex = 0;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>scheduler();</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('music-icon').innerText = '🎵';</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('music-toggle').classList.add('music-pulse');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('bed-mobile').classList.add('mobile-swing-active');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>isPlaying = false;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>clearTimeout(timerId);</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('music-icon').innerText = '🔇';</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('music-toggle').classList.remove('music-pulse');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('bed-mobile').classList.remove('mobile-swing-active');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>// 文章對照表</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const articleDatabase = {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>risk: { title: "每年30名嬰兒猝死，為何成為致命風險？", url: "https://premium.parenting.com.tw/article/6001803" },</p>
-<p class="p1"><span class="Apple-converted-space">            </span>reform: { title: "專家提3大關鍵改革，降低嬰兒猝死機率", url: "https://premium.parenting.com.tw/article/6001805" },</p>
-<p class="p1"><span class="Apple-converted-space">            </span>myths: { title: "一次破解5大寶寶睡眠迷思與風險行為", url: "https://premium.parenting.com.tw/article/6001757" },</p>
-<p class="p1"><span class="Apple-converted-space">            </span>story: { title: "失去孩子的母親獨白：這是我最後能為你做的", url: "https://premium.parenting.com.tw/article/6001793" },</p>
-<p class="p1"><span class="Apple-converted-space">            </span>practical: { title: "6招讓難哄寶寶也好睡：安全也好眠", url: "https://premium.parenting.com.tw/article/6001733" },</p>
-<p class="p1"><span class="Apple-converted-space">            </span>international: { title: "借鏡英奧澳，打造全方位嬰兒睡眠安全網", url: "https://premium.parenting.com.tw/article/6001802" }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>};</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>const questions = [</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "為何許多家長明知趴睡有風險，仍想讓寶寶趴睡？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["趴睡可以防吐奶噎到", "寶寶趴著比較有安全感，睡得較沉", "趴睡能讓頭型變漂亮", "以上皆是常見迷思"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 3,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "這些都是致命迷思！研究顯示趴睡會增加猝死機率，而『睡得沉』反而是風險來源。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.myths</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "國外推廣嬰兒睡眠安全網的核心概念是什麼？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["家長應該更努力監視寶寶", "睡眠安全不只是家長的責任，更是社會系統的支持", "買昂貴的偵測器才是唯一解方", "嬰兒不應該在醫院以外的地方睡覺"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 1,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "睡眠安全是全方位防護網，包括政府補助、醫護指導及家庭支持。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.international</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "關於「同床睡」，專家分析死因回溯後的建議是？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["同床可以即時發現問題，更安全", "同床會增加大人壓到寶寶或被褥遮口鼻的風險", "只要中間放枕頭隔開就安全", "為了親密關係，一定要同床"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 1,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "正確做法是『同房不同床』。同床容易發生意外，風險極高。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.risk</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "當寶寶半夜哭鬧不睡時，哪種行為是正確的？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["放到大人的軟沙發上讓寶寶暫睡", "在嬰兒床裡堆滿毛絨玩偶增加安全感", "建立固定順序的睡眠儀式並保持仰睡", "讓他趴在大人胸口，大人也跟著睡著"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 2,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "沙發極危險。床應保持空曠，避免雜物導致窒息風險。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.reform</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "根據「死因回溯」分析，哪種情況最容易導致嬰兒意外窒息？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["嬰兒床旁放置空氣清淨機", "大人因為過於疲憊，餵奶時不慎睡著而壓到孩子", "房間溫度低於 24 度", "使用了太硬的床墊"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 1,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "家長疲憊是潛在風險，餵奶時睡著可能壓迫孩子。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.risk</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "寶寶一歲以前，嬰兒床內唯一「安全」的東西是？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["柔軟的毛毯", "防撞床圍", "適當使用的奶嘴", "可愛的音樂鈴放在床頭"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 2,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "奶嘴有助放鬆且能降低猝死機率。枕頭、床圍都是不必要的障礙物。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.practical</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "許多家長認為「穿得多才不會感冒」，但關於溫度的安全原則是？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["穿越多越好", "環境通風、避免寶寶過熱", "手腳一定要冰涼才正常", "冷氣要開到 28 度"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 1,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "過熱是猝死危險因子。應讓環境保持涼爽通風，穿衣以寶寶頸後溫暖為準。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.reform</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "為什麼嬰兒睡眠會有「半夢半醒」的常態？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["因為生病了", "這是沒睡好的表現", "嬰兒淺眠期比例大於熟睡期是發展常態", "因為肚子餓"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 2,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "淺眠期長是生理發展常態，並非沒睡好，補足正確知識能減少焦慮。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.practical</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "對於「難哄型」寶寶，哪種實戰妙招能兼顧安全與好眠？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["讓他趴睡，不行就放棄安全原則", "使用白噪音與側身安撫後轉仰躺", "讓他坐在嬰兒提籃裡睡整晚", "在奶嘴上加掛繩防止掉落"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 1,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "可以側抱安撫，但睡著後務必轉為『仰躺』放入床。掛繩是嚴禁的風險物。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.practical</p>
-<p class="p1"><span class="Apple-converted-space">            </span>},</p>
-<p class="p1"><span class="Apple-converted-space">            </span>{<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>question: "安全睡眠的關鍵「三不」不包含下列何者？",<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>options: ["不趴睡", "不使用鬆軟寢具", "不讓寶寶單獨一間房睡", "不讓寶寶聽任何聲音"],<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>correct: 3,<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedback: "環境安全三不：不趴睡、不軟墊、不雜物。適度的安撫聲音是可以的。",</p>
-<p class="p1"><span class="Apple-converted-space">                </span>article: articleDatabase.story</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>];</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>let currentQuestion = 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let score = 0;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function setBabyState(state) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const wrapper = document.getElementById('baby-wrapper');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const elements = { neutral: ['eyes-neutral', 'mouth-neutral'], happy: ['eyes-happy', 'mouth-happy', 'hearts-layer'], sad: ['eyes-sad', 'mouth-sad', 'tears-layer'] };</p>
-<p class="p1"><span class="Apple-converted-space">            </span>Object.values(elements).flat().forEach(id =&gt; { const el = document.getElementById(id); if(el) el.classList.add('hidden'); });</p>
-<p class="p1"><span class="Apple-converted-space">            </span>wrapper.classList.remove('is-crying');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>elements[state].forEach(id =&gt; { const el = document.getElementById(id); if(el) el.classList.remove('hidden'); });</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (state === 'sad') wrapper.classList.add('is-crying');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>async function handleStartGame() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (window.incrementGlobalCount) await window.incrementGlobalCount();</p>
-<p class="p1"><span class="Apple-converted-space">            </span>startGame();</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function startGame() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('start-screen').classList.add('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('quiz-screen').classList.remove('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if(!isPlaying) toggleMusic();</p>
-<p class="p1"><span class="Apple-converted-space">            </span>showQuestion();</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function showQuestion() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>setBabyState('neutral');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const q = questions[currentQuestion];</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('question-text').innerText = q.question;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('progress-text').innerText = `進度 ${currentQuestion + 1} / ${questions.length}`;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('progress-bar').style.width = `${((currentQuestion + 1) / questions.length) * 100}%`;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const container = document.getElementById('options-container');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>container.innerHTML = '';</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('feedback-container').classList.add('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>q.options.forEach((option, index) =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>const button = document.createElement('button');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>button.innerText = option;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>button.className = "w-full text-left p-3.5 sm:p-4 rounded-xl border-2 border-pink-50 hover:border-pink-200 hover:bg-pink-50 transition duration-200 text-gray-700 font-medium btn-bounce text-sm sm:text-base";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>button.onclick = () =&gt; checkAnswer(index);</p>
-<p class="p1"><span class="Apple-converted-space">                </span>container.appendChild(button);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>});</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('quiz-content').scrollTop = 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function checkAnswer(idx) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const q = questions[currentQuestion];</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const buttons = document.getElementById('options-container').querySelectorAll('button');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>buttons.forEach(b =&gt; b.disabled = true);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const isCorrect = idx === q.correct;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const feedbackContainer = document.getElementById('feedback-container');</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (isCorrect) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>score += 100;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>setBabyState('happy');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('score-text').innerText = `得分: ${score}`;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('feedback-title').innerText = "正確守護！";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('feedback-title').className = "font-bold text-base sm:text-lg text-green-700";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedbackContainer.className = "p-4 rounded-2xl border-2 border-green-200 bg-green-50 relative overflow-hidden fade-in mb-4";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('feedback-icon').innerHTML = "✅";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>buttons[idx].classList.add('border-green-500', 'bg-green-100');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>setBabyState('sad');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('feedback-title').innerText = "警報！安全漏洞";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('feedback-title').className = "font-bold text-base sm:text-lg text-red-700";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>feedbackContainer.className = "p-4 rounded-2xl border-2 border-red-200 bg-red-50 relative overflow-hidden fade-in mb-4";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('feedback-icon').innerHTML = "⚠️";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>buttons[idx].classList.add('border-red-500', 'bg-red-100');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>buttons[q.correct].classList.add('border-green-500', 'bg-green-50');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('feedback-text').innerText = q.feedback;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>// 處理延伸閱讀連結</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const articleDiv = document.getElementById('inline-article');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const articleLink = document.getElementById('article-link');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (q.article) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>articleDiv.classList.remove('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>articleLink.href = q.article.url;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>articleLink.innerText = q.article.title;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>articleDiv.classList.add('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>feedbackContainer.classList.remove('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; { document.getElementById('quiz-content').scrollTo({ top: document.getElementById('quiz-content').scrollHeight, behavior: 'smooth' }); }, 100);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function nextQuestion() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>currentQuestion++;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (currentQuestion &lt; questions.length) showQuestion();</p>
-<p class="p1"><span class="Apple-converted-space">            </span>else showResult();</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function showResult() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>// 發送 GTM 自訂事件</p>
-<p class="p1"><span class="Apple-converted-space">            </span>window.dataLayer = window.dataLayer || [];</p>
-<p class="p1"><span class="Apple-converted-space">            </span>window.dataLayer.push({ event: 'aitool_success' });</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('quiz-screen').classList.add('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const resultScreen = document.getElementById('result-screen');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>resultScreen.classList.remove('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('final-score').innerText = score;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const rankBadge = document.getElementById('rank-badge');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const rankDesc = document.getElementById('rank-desc');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const messageEl = document.getElementById('result-message');</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>if (score === 1000) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>setBabyState('happy');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankBadge.innerText = "👑 終極守護神";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankBadge.className = "inline-block px-5 py-1.5 rounded-full bg-yellow-400 text-yellow-900 border-yellow-500 shadow-sm border-2 font-black text-lg mb-2";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankDesc.innerText = "完美通關！寶寶在你身邊最安心！";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>messageEl.innerText = "安全是不可妥協的前提。這份堅持是送給孩子最好的禮物。";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>} else if (score &gt;= 700) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>setBabyState('happy');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankBadge.innerText = "🌟 資深守護者";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankBadge.className = "inline-block px-5 py-1.5 rounded-full bg-pink-100 text-pink-600 border-pink-300 shadow-sm border-2 font-black text-lg mb-2";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankDesc.innerText = "非常棒！你是寶寶穩固的安心靠山。";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>messageEl.innerText = "雖然只有少數迷思，但在睡眠安全上，細節往往決定命運。";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>} else if (score &gt;= 400) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>setBabyState('neutral');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankBadge.innerText = "🛡️ 初階守護者";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankBadge.className = "inline-block px-5 py-1.5 rounded-full bg-blue-50 text-blue-600 border-blue-200 shadow-sm border-2 font-black text-lg mb-2";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankDesc.innerText = "具備概念，但需破除趴睡等致命迷思。";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>messageEl.innerText = "育兒路辛苦了！讓我們透過測驗中的延伸閱讀來強化知識。";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>setBabyState('sad');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankBadge.innerText = "👶 新手實習生";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankBadge.className = "inline-block px-5 py-1.5 rounded-full bg-gray-100 text-gray-500 border-gray-300 shadow-sm border-2 font-black text-lg mb-2";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>rankDesc.innerText = "別擔心，正確知識可以慢慢補足！";</p>
-<p class="p1"><span class="Apple-converted-space">                </span>messageEl.innerText = "為了寶寶平安，請務必詳讀測驗中的各項安全詳解。";</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>resultScreen.scrollTop = 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function restartGame() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>currentQuestion = 0; score = 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('score-text').innerText = `得分: 0`;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('result-screen').classList.add('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('start-screen').classList.remove('hidden');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>setBabyState('neutral');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<body class="min-h-screen flex items-center justify-center p-2 sm:p-4">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8VL4XS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <!-- 音樂開關 -->
+    <button id="music-toggle" onclick="toggleMusic()" class="fixed top-4 right-4 z-50 bg-white p-2.5 rounded-full shadow-lg border-2 border-pink-100 text-lg">
+        <span id="music-icon">🔇</span>
+    </button>
+
+    <div id="game-container" class="w-full max-w-md bg-white rounded-[2rem] shadow-2xl overflow-hidden border-b-8 border-pink-200 relative flex flex-col h-[600px] sm:h-auto">
+        
+        <!-- 音樂鈴 -->
+        <div class="w-full flex justify-center pt-3 shrink-0">
+            <svg id="bed-mobile" class="mobile-swing" width="100" height="50" viewBox="0 0 120 80">
+                <line x1="60" y1="0" x2="60" y2="20" stroke="#fbcfe8" stroke-width="2"/>
+                <line x1="20" y1="40" x2="100" y2="40" stroke="#fbcfe8" stroke-width="2"/>
+                <circle cx="60" cy="40" r="3" fill="#fbcfe8"/>
+                <line x1="20" y1="40" x2="20" y2="60" stroke="#fbcfe8" stroke-width="1"/>
+                <path d="M15 65 L20 60 L25 65 L20 75 Z" fill="#fef08a"/>
+                <line x1="100" y1="40" x2="100" y2="60" stroke="#fbcfe8" stroke-width="1"/>
+                <path d="M95 65 Q105 65 105 75 Q95 75 95 65" fill="#fbcfe8"/>
+                <line x1="60" y1="40" x2="60" y2="70" stroke="#fbcfe8" stroke-width="1"/>
+                <path d="M55 70 A5 5 0 1 1 65 70 A5 5 0 1 0 55 70" fill="#fde047"/>
+            </svg>
+        </div>
+
+        <!-- 寶寶視覺 -->
+        <div id="baby-display" class="flex justify-center mb-2 shrink-0">
+            <div id="baby-wrapper" class="relative baby-float">
+                <div id="hearts-layer" class="hidden absolute -top-8 inset-x-0 flex justify-around px-4 pointer-events-none">
+                    <span class="heart-icon text-pink-400 text-lg">❤️</span>
+                    <span class="heart-icon text-pink-300 text-base" style="animation-delay: 0.3s">❤️</span>
+                </div>
+                <svg width="150" height="100" viewBox="0 0 200 120" class="mx-auto">
+                    <rect x="20" y="80" width="160" height="10" rx="5" fill="#f3f4f6"/>
+                    <rect x="30" y="70" width="140" height="10" rx="2" fill="#fff"/>
+                    <g id="baby-body">
+                        <rect x="85" y="55" width="30" height="25" rx="10" fill="#fbcfe8"/>
+                        <circle cx="100" cy="50" r="18" fill="#ffe4e6"/>
+                        <g id="eyes-neutral">
+                            <path d="M90 48 Q93 51 96 48" stroke="#f472b6" fill="none" stroke-width="1.5"/>
+                            <path d="M104 48 Q107 51 110 48" stroke="#f472b6" fill="none" stroke-width="1.5"/>
+                        </g>
+                        <g id="eyes-happy" class="hidden">
+                            <circle cx="93" cy="48" r="2.5" fill="#db2777"/>
+                            <circle cx="107" cy="48" r="2.5" fill="#db2777"/>
+                        </g>
+                        <g id="eyes-sad" class="hidden">
+                            <path d="M90 50 L96 46 M90 46 L96 50" stroke="#9d174d" fill="none" stroke-width="1.5"/>
+                            <path d="M104 50 L110 46 M104 46 L110 50" stroke="#9d174d" fill="none" stroke-width="1.5"/>
+                        </g>
+                        <path id="mouth-neutral" d="M97 58 Q100 60 103 58" stroke="#f472b6" fill="none" stroke-width="1"/>
+                        <path id="mouth-happy" d="M95 56 Q100 62 105 56" stroke="#db2777" fill="none" stroke-width="2" class="hidden"/>
+                        <circle id="mouth-sad" cx="100" cy="60" r="3" fill="#9d174d" class="hidden"/>
+                        <g id="tears-layer" class="hidden">
+                            <circle cx="90" cy="55" r="2" fill="#60a5fa" class="tear-drop"/>
+                            <circle cx="110" cy="55" r="2" fill="#60a5fa" class="tear-drop" style="animation-delay: 0.5s"/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <div class="flex-1 overflow-hidden relative">
+            <!-- 畫面 1: 開始挑戰 -->
+            <div id="start-screen" class="p-6 text-center h-full flex flex-col justify-center">
+                <h1 class="text-2xl font-extrabold text-gray-800 mb-2">安全睡眠守護者挑戰</h1>
+                <p class="text-pink-500 font-bold mb-4">你能獲得什麼守護稱號？</p>
+                <div class="text-gray-600 mb-6 space-y-2 text-left bg-pink-50 p-4 rounded-2xl text-sm border border-pink-100">
+                    <p class="flex items-start"><span class="mr-2">👶</span> 台灣每年約有 30 名嬰兒猝死。</p>
+                    <p class="flex items-start"><span class="mr-2">🏠</span> 10 道關鍵題，實測你的睡眠安全等級。</p>
+                    <p class="flex items-center text-pink-600 font-bold">
+                        <span class="mr-2">✨</span> 已有 <span id="count-value" class="mx-1">1,248</span> 位守護者參與挑戰
+                    </p>
+                </div>
+                <button onclick="startGame()" class="w-full bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold py-3.5 rounded-2xl shadow-lg btn-bounce text-lg">
+                    開始挑戰
+                </button>
+            </div>
+
+            <!-- 畫面 2: 測驗進行 -->
+            <div id="quiz-screen" class="hidden p-5 pt-0 h-full flex flex-col">
+                <div class="mb-4 shrink-0">
+                    <div class="flex justify-between items-end mb-2">
+                        <span id="progress-text" class="text-xs font-bold text-pink-500">進度 1 / 10</span>
+                        <span id="score-text" class="text-sm font-bold text-gray-700">得分: 0</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2 rounded-full overflow-hidden">
+                        <div id="progress-bar" class="h-full bg-pink-400 transition-all duration-300" style="width: 10%"></div>
+                    </div>
+                </div>
+                
+                <div id="quiz-content" class="flex-1 overflow-y-auto custom-scroll pr-1">
+                    <div id="question-container" class="fade-in">
+                        <div class="bg-yellow-50 p-4 rounded-2xl mb-4 border border-yellow-100">
+                            <h2 id="question-text" class="text-base font-bold text-gray-800 text-center leading-snug">載入中...</h2>
+                        </div>
+                        <div id="options-container" class="space-y-2.5 mb-4"></div>
+                    </div>
+
+                    <div id="feedback-container" class="hidden p-4 rounded-2xl border-2 fade-in bg-white mb-4">
+                        <div class="flex items-center mb-2">
+                            <div id="feedback-icon" class="mr-2 text-xl"></div>
+                            <p id="feedback-title" class="font-bold text-base"></p>
+                        </div>
+                        <p id="feedback-text" class="text-gray-700 text-xs sm:text-sm leading-relaxed mb-4"></p>
+                        
+                        <!-- 關聯延伸閱讀 -->
+                        <div id="inline-article" class="hidden mb-4">
+                            <div class="bg-pink-50 rounded-xl p-3 border border-pink-100">
+                                <p class="text-[10px] font-bold text-pink-400 mb-1">💡 專家建議詳讀：</p>
+                                <a id="article-link" href="#" target="_blank" class="text-xs sm:text-sm font-bold text-gray-800 hover:text-pink-600 underline leading-tight block"></a>
+                            </div>
+                        </div>
+
+                        <button onclick="nextQuestion()" class="w-full bg-pink-500 text-white font-bold py-3 rounded-xl shadow-md btn-bounce">下一題</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 畫面 3: 結果結算 -->
+            <div id="result-screen" class="hidden p-6 text-center h-full overflow-y-auto custom-scroll">
+                <h2 class="text-xl font-bold text-gray-800 mb-1">挑戰結果</h2>
+                <div class="my-4 bg-pink-50 p-5 rounded-3xl border-2 border-pink-100 relative">
+                    <p class="text-[10px] text-pink-400 font-bold mb-1 tracking-widest uppercase">Your Score</p>
+                    <div class="mb-2"><span id="final-score" class="text-5xl font-black text-pink-500">0</span><span class="text-gray-400 text-lg"> / 1000</span></div>
+                    <div id="rank-badge" class="inline-block px-5 py-1.5 rounded-full bg-white shadow-sm border-2 font-black text-lg mb-2">載入中...</div>
+                    <p id="rank-desc" class="text-gray-600 text-xs font-medium px-2"></p>
+                </div>
+                <div id="result-message" class="text-gray-700 mb-8 bg-yellow-50 p-4 rounded-2xl text-left italic text-xs border border-yellow-100"></div>
+                <button onclick="restartGame()" class="w-full bg-yellow-400 text-yellow-900 font-bold py-3.5 rounded-2xl shadow-lg btn-bounce">再次挑戰</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 水晶音樂合成器
+        let audioCtx = null;
+        let isPlaying = false;
+        let nextNoteTime = 0;
+        let melodyIndex = 0;
+        let timerId = null;
+        const melody = [261.63, 261.63, 392.00, 392.00, 440.00, 440.00, 392.00, 349.23, 349.23, 329.63, 329.63, 293.66, 293.66, 261.63];
+
+        function playNote(freq, time) {
+            if (!audioCtx) return;
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(freq, time);
+            gain.gain.setValueAtTime(0, time);
+            gain.gain.linearRampToValueAtTime(0.12, time + 0.05);
+            gain.gain.exponentialRampToValueAtTime(0.001, time + 1.2);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start(time);
+            osc.stop(time + 1.2);
+        }
+
+        function scheduler() {
+            while (nextNoteTime < audioCtx.currentTime + 0.1) {
+                playNote(melody[melodyIndex], nextNoteTime);
+                nextNoteTime += 0.85;
+                melodyIndex = (melodyIndex + 1) % melody.length;
+            }
+            timerId = setTimeout(scheduler, 25);
+        }
+
+        function toggleMusic() {
+            if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            if (!isPlaying) {
+                isPlaying = true;
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                nextNoteTime = audioCtx.currentTime;
+                melodyIndex = 0;
+                scheduler();
+                document.getElementById('music-icon').innerText = '🎵';
+                document.getElementById('music-toggle').classList.add('music-pulse');
+                document.getElementById('bed-mobile').classList.add('mobile-swing-active');
+            } else {
+                isPlaying = false;
+                clearTimeout(timerId);
+                document.getElementById('music-icon').innerText = '🔇';
+                document.getElementById('music-toggle').classList.remove('music-pulse');
+                document.getElementById('bed-mobile').classList.remove('mobile-swing-active');
+            }
+        }
+
+        // 測驗題庫與文章關聯
+        const articleList = {
+            risk: { title: "每年30名嬰兒猝死，為何成為致命風險？", url: "https://premium.parenting.com.tw/article/6001803" },
+            myths: { title: "一次破解5大寶寶睡眠迷思與風險行為", url: "https://premium.parenting.com.tw/article/6001757" },
+            practical: { title: "6招讓難哄寶寶也好睡：安全也好眠", url: "https://premium.parenting.com.tw/article/6001733" },
+            reform: { title: "專家提3大關鍵改革，降低嬰兒猝死機率", url: "https://premium.parenting.com.tw/article/6001805" },
+            story: { title: "失去孩子的母親獨白：這是我最後能為你做的", url: "https://premium.parenting.com.tw/article/6001793" },
+            intl: { title: "借鏡英奧澳，打造全方位睡眠安全網", url: "https://premium.parenting.com.tw/article/6001802" }
+        };
+
+        const questions = [
+            { q: "為何許多家長明知趴睡有風險，仍想讓寶寶趴睡？", o: ["可以防吐奶噎到", "寶寶趴著較有安全感，睡得較沉", "能讓頭型變漂亮", "以上皆是常見迷思"], a: 3, f: "致命迷思！研究顯示趴睡會增加猝死機率，而『睡得沉』反而是停止呼吸的風險來源。", article: articleList.myths },
+            { q: "國外推廣嬰兒睡眠安全網（如奧地利）的核心概念是？", o: ["家長應該更努力監視寶寶", "睡眠安全是社會系統支持，非僅家長責任", "買偵測器是唯一解方", "嬰兒不應在醫院外睡覺"], a: 1, f: "睡眠安全是全方位防護網，包括政府補助與家庭支持。", article: articleList.intl },
+            { q: "關於「同床睡」，專家死因回溯後的建議是？", o: ["同床更安全，能即時發現問題", "同床會增加大人壓到孩子或被褥遮口鼻的風險", "中間放枕頭隔開就安全", "為了親密關係，一定要同床"], a: 1, f: "正確做法是『同房不同床』。同床容易發生溢奶噎到或壓迫意外。", article: articleList.risk },
+            { q: "當寶寶半夜哭鬧時，哪種行為是正確的？", o: ["放在軟沙發上暫睡", "嬰兒床堆滿玩偶增加安全感", "建立固定順序的睡眠儀式並仰睡", "讓他趴在大人胸口睡"], a: 2, f: "沙發極危險。床應保持空曠，五字訣：不、搖、墊、枕、被。", article: articleList.reform },
+            { q: "死因回溯分析中，哪種情況最容易導致意外窒息？", o: ["床旁放空氣清淨機", "大人疲憊餵奶不慎睡著而壓到孩子", "房間溫低於24度", "使用太硬的床墊"], a: 1, f: "家長過度疲憊是潛在風險，餵奶時睡著常導致孩子受壓。", article: articleList.risk },
+            { q: "一歲以內，嬰兒床內唯一「安全」的東西是？", o: ["柔軟毛毯", "防撞床圍", "適當使用的奶嘴", "音樂鈴"], a: 2, f: "奶嘴有助放鬆且降低猝死機率。枕頭與床圍都是多餘的障礙物。", article: articleList.practical },
+            { q: "關於溫度的安全原則是？", o: ["穿越多越好", "環境通風、避免寶寶過熱", "手腳冰涼才正常", "冷氣開到28度"], a: 1, f: "過熱是猝死因子。環境應涼爽，穿衣以寶寶頸後溫暖為準。", article: articleList.reform },
+            { q: "為什麼嬰兒睡眠會有「半夢半醒」的常態？", o: ["生病了", "沒睡好", "淺眠期大於熟睡期是發展常態", "肚子餓"], a: 2, f: "嬰兒淺眠期長是生理常態，了解這點能減少家長焦慮。", article: articleList.practical },
+            { q: "對於「難哄型」寶寶，哪種妙招能兼顧安全？", o: ["讓他趴睡", "白噪音與側抱後轉仰躺", "提籃睡整晚", "奶嘴加掛繩"], a: 1, f: "可以側抱安撫，但入睡放入床後務必轉為『仰躺』。掛繩絕對嚴禁。", article: articleList.practical },
+            { q: "安全睡眠的關鍵「三不」不包含下列何者？", o: ["不趴睡", "不使用鬆軟寢具", "不讓寶寶單獨房間睡", "不聽任何聲音"], a: 3, f: "專家建議『同房不同床』。適度白噪音是可以接受的。", article: articleList.story }
+        ];
+
+        let currentQ = 0;
+        let score = 0;
+
+        function setBaby(state) {
+            const wrap = document.getElementById('baby-wrapper');
+            const map = { neutral:['eyes-neutral','mouth-neutral'], happy:['eyes-happy','mouth-happy','hearts-layer'], sad:['eyes-sad','mouth-sad','tears-layer'] };
+            Object.values(map).flat().forEach(id => document.getElementById(id).classList.add('hidden'));
+            wrap.classList.remove('is-crying');
+            map[state].forEach(id => document.getElementById(id).classList.remove('hidden'));
+            if(state==='sad') wrap.classList.add('is-crying');
+        }
+
+        function startGame() {
+            document.getElementById('start-screen').classList.add('hidden');
+            document.getElementById('quiz-screen').classList.remove('hidden');
+            if(!isPlaying) toggleMusic();
+            showQ();
+        }
+
+        function showQ() {
+            setBaby('neutral');
+            const q = questions[currentQ];
+            document.getElementById('question-text').innerText = q.q;
+            document.getElementById('progress-text').innerText = `進度 ${currentQ + 1} / 10`;
+            document.getElementById('progress-bar').style.width = `${(currentQ+1)*10}%`;
+            
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+            document.getElementById('feedback-container').classList.add('hidden');
+
+            q.o.forEach((opt, i) => {
+                const btn = document.createElement('button');
+                btn.innerText = opt;
+                btn.className = "w-full text-left p-3.5 rounded-xl border-2 border-pink-50 hover:bg-pink-50 transition text-sm btn-bounce";
+                btn.onclick = () => check(i);
+                container.appendChild(btn);
+            });
+            document.getElementById('quiz-content').scrollTop = 0;
+        }
+
+        function check(i) {
+            const q = questions[currentQ];
+            const btns = document.getElementById('options-container').querySelectorAll('button');
+            btns.forEach(b => b.disabled = true);
+            const isCorrect = i === q.a;
+            if(isCorrect) {
+                score += 100; setBaby('happy');
+                document.getElementById('score-text').innerText = `得分: ${score}`;
+                document.getElementById('feedback-title').innerText = "正確守護！";
+                document.getElementById('feedback-container').className = "p-4 rounded-2xl border-2 border-green-200 bg-green-50 fade-in mb-4";
+                document.getElementById('feedback-icon').innerHTML = "✅";
+                btns[i].classList.add('border-green-500', 'bg-green-100');
+            } else {
+                setBaby('sad');
+                document.getElementById('feedback-title').innerText = "安全漏洞！";
+                document.getElementById('feedback-container').className = "p-4 rounded-2xl border-2 border-red-200 bg-red-50 fade-in mb-4";
+                document.getElementById('feedback-icon').innerHTML = "⚠️";
+                btns[i].classList.add('border-red-500', 'bg-red-100');
+                btns[q.a].classList.add('border-green-500', 'bg-green-50');
+            }
+            document.getElementById('feedback-text').innerText = q.f;
+            
+            // 延伸閱讀
+            const artDiv = document.getElementById('inline-article');
+            const artLink = document.getElementById('article-link');
+            if(q.article) {
+                artDiv.classList.remove('hidden');
+                artLink.href = q.article.url;
+                artLink.innerText = q.article.title;
+            } else {
+                artDiv.classList.add('hidden');
+            }
+            document.getElementById('feedback-container').classList.remove('hidden');
+            setTimeout(() => { document.getElementById('quiz-content').scrollTo({top:999, behavior:'smooth'}); }, 100);
+        }
+
+        function nextQuestion() {
+            currentQ++;
+            if(currentQ < 10) showQ();
+            else finish();
+        }
+
+        function finish() {
+            // 發送 GTM 自訂事件 aitool_success
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ 'event': 'aitool_success' });
+
+            document.getElementById('quiz-screen').classList.add('hidden');
+            const res = document.getElementById('result-screen');
+            res.classList.remove('hidden');
+            document.getElementById('final-score').innerText = score;
+            
+            const badge = document.getElementById('rank-badge');
+            const desc = document.getElementById('rank-desc');
+            const msg = document.getElementById('result-message');
+
+            if(score === 1000) {
+                setBaby('happy'); badge.innerText = "👑 終極守護神";
+                badge.className = "px-5 py-1.5 rounded-full bg-yellow-400 text-yellow-900 border-2 border-yellow-500 font-bold mb-2 inline-block";
+                desc.innerText = "完美通關！寶寶在你身邊最安心！";
+                msg.innerText = "安全是不可妥協的前提。這份堅持是送給孩子最好的禮物。";
+            } else if (score >= 700) {
+                setBaby('happy'); badge.innerText = "🌟 資深守護者";
+                badge.className = "px-5 py-1.5 rounded-full bg-pink-100 text-pink-600 border-2 border-pink-300 font-bold mb-2 inline-block";
+                desc.innerText = "非常棒！你是寶寶穩固的安心靠山。";
+                msg.innerText = "雖然只有少數迷思，但在睡眠安全上，細節決定命運。";
+            } else {
+                setBaby('neutral'); badge.innerText = "🛡️ 初階守護者";
+                badge.className = "px-5 py-1.5 rounded-full bg-gray-100 text-gray-600 border-2 border-gray-300 font-bold mb-2 inline-block";
+                desc.innerText = "具備基礎，但需破除趴睡等致命迷思。";
+                msg.innerText = "為了寶寶平安，請務必詳讀測驗中的各項詳解文章。";
+            }
+        }
+
+        function restartGame() {
+            currentQ = 0; score = 0;
+            document.getElementById('score-text').innerText = `得分: 0`;
+            document.getElementById('result-screen').classList.add('hidden');
+            document.getElementById('start-screen').classList.remove('hidden');
+            setBaby('neutral');
+        }
+    </script>
 </body>
 </html>
